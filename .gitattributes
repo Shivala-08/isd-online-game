@@ -1,0 +1,16 @@
+# Keep GitHub's language bar showing this project's own code, not bundled
+# third-party or generated assets.
+Assets/Plugins/**                linguist-vendored
+"Assets/TextMesh Pro/**"         linguist-vendored
+"Assets/TutorialInfo/**"         linguist-vendored
+Screenshots/**                   linguist-documentation
+docs/**                          linguist-documentation
+*.meta                           linguist-generated
+
+# Real binary assets: never diffed, never converted
+*.png   binary
+*.jpg   binary
+*.fbx   binary
+*.blend binary
+*.wav   binary
+*.dll   binary
